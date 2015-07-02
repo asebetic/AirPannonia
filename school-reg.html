@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<title>Air Pannonia</title>
+	<link rel="stylesheet" type="text/css" href="assets/stylesheet/main.css">
+	<meta name="viewport" content="width=device-width" content="initial-scale=1.0">
+</head>
+
+<body>
+	<div class="container">
+		<div class="content"> 
+			<div class="form-wrapper">
+				<form name="contactform" method="post" action="send_form_email.php">
+					<fieldset>
+						<legend>Registration For Training</legend>
+
+						<label>
+							<em>*</em>
+							First name:
+							<input id="firstname" type="text" name="firstname"  required autofocus>
+						</label>
+						<label>
+							<em>*</em>
+							Last name:
+							<input type="text" name="lastname" required>
+						</label>
+						<label>
+							<em>*</em>
+							Date of birth:
+							<input type="date" name="birth_date">
+						</label>
+						<label>
+							Place of birth:
+							<input type="text">
+						</label>
+						<label>
+							Adress:
+							<input type="text">
+						</label>
+						<label>
+							<em>*</em>
+							E-mail:
+							<input type="email" name="email" placeholder="name@domain.com" required>
+						</label>
+						<label>
+							Phone Number: 
+							<input type="tel" name="usrtel">
+						</label>
+						<br>
+						<label>
+							Types of Training:
+							<input type="text" name="text">
+						</label>
+						<label>
+							Date of Start Training: 
+							<input type="date">
+						</label>
+						<label>
+							Date of Medical Check:
+							<input type="date">
+						</label>
+						<label>
+							Type of Medical Check:
+							<input type="text" name="text">
+						</label>
+						<label>
+							Validity of Licence:
+							<input type="text" name="text">
+						</label>
+						<label>
+							Comment
+							<textarea name="comment" placeholder="Add your comment here"></textarea>
+						</label>
+						<br><br>
+						<em>* Required</em>
+						<input class="reg-button" type="submit" name="submit" value="Submit">
+					</fieldset>
+				</form>				
+			</div> 
+			<a class="back-link" href="index.html">&#8592; Back </a>
+		<!-- Footer -->
+		<footer>
+			<small>Copyright © Air Pannonia 2015</small>
+		</footer>
+		</div>
+	</div>
+
+</body>
+</html>
