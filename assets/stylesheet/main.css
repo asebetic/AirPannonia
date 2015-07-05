@@ -313,6 +313,9 @@ iframe {
   height: 100%;
   margin: 0 5%;
 }
+.fb-like {
+  margin: 10px 55px;
+}
 em {
   color: red;
 }
@@ -341,12 +344,6 @@ a {
   ========================================
 */
 
-#facebook {
-  max-width: 400px;
-  width: 100%;
-  min-height: 250px;
-  height: 100%;
-}
 .contact {
   background-color: #94cafd;
   border-radius: 5%;
@@ -552,31 +549,16 @@ footer small {
   max-width: 986px;
   width: 70%;
   }
-
-  #facebook {
-    max-width: 400px;
-    width: 100%;
-  }
   #plane {
     text-align: left;
   }
-
-}
-
-/* Large screen mobiles */
-@media only screen and (max-width: 850px) {
-
-  #facebook {
-    max-width: 330px;
-    width: 100%;
+  .contact {
+    margin: 10px auto;
   }
 }
 
 /* 710px */
 @media only screen and (max-width: 710px) {
-  .container {
-    margin: 0 auto;
-  }
   .navbar {
     display: block;
     z-index: 1;
@@ -615,13 +597,10 @@ footer small {
   }
   .contact {
     max-width: 400px;
-    width: 100%;
+    width: 100%;  
+    text-align: left;
   }
-  #facebook {
-    max-width: 450px;
-    width: 100%;
-    float: none;
-  }
+
   #plane {
   max-width: 800px;
   width: 80%;
@@ -642,13 +621,13 @@ footer small {
   .plane-sec:last-child {
     border: none;
   }
+  h1 {
+    padding: 2%;
+  }
 }
 
 /* iPhones and other mobiles */
 @media only screen and (max-width: 520px) {
-  .container {
-    margin: 0 auto;
-  }
   .primary-nav {
     display: none;
   }
@@ -700,10 +679,6 @@ footer small {
     text-align: left;
     width: 100%;
   }
-  #facebook {
-    width: 100%;
-    float: none;
-  }
   .gallery img {
     width: 100px;
   }
@@ -712,6 +687,9 @@ footer small {
   }
   #slider figure img { 
   height: 250px;
+  }
+  .fb-like {
+    margin-left: 0;
   }
 }
 

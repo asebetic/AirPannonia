@@ -2,21 +2,14 @@
  
 if(isset($_POST['email'])) {
  
-     
- 
-    // EDIT THE 2 LINES BELOW AS REQUIRED
- 
     $email_to = "a.sebetic@gmail.com";
  
     $email_subject = "Registration";
  
      
  
-     
- 
+    
     function died($error) {
- 
-        // your error code can go here
  
         echo "We are very sorry, but there were error(s) found with the form you submitted. ";
  
@@ -29,7 +22,6 @@ if(isset($_POST['email'])) {
         die();
  
     }
- 
      
  
     // validation expected data exists
@@ -153,7 +145,6 @@ if(isset($_POST['email'])) {
     $email_message .= "Comments: ".clean_string($comments)."\n";
  
  
-// create email headers
  
 $headers = 'From: '.$email_from."\r\n".
  
@@ -204,7 +195,9 @@ $headers = 'From: '.$email_from."\r\n".
 				</nav>
 				<ul>
 		</header>
+
 	<!-- Content -->
+	
 		<div class="content">
 			
 <p id="register"> Thank you for contacting us. We will be in touch with you very soon.</p>
