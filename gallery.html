@@ -15,38 +15,38 @@
 
 <body>
 	<div class="navbar">
-		<nav>
-			<a href="index.html">O nama</a>
-			<a href="school-planes.html">Flota</a>
-			<a href="school.html">Instruktori</a>
-			<a href="maintenance.html">Održavanje zrakoplova</a>
-			<a href="gallery.html">Galerija</a>
-			<a href="contact.html">Kontakt</a>
-		</nav>
+		<a class="close-btn" href="#"><span>X</span></a>
+		<a href="index.html">O nama</a>
+		<a href="school-planes.html">Flota</a>
+		<a href="school.html">Instruktori</a>
+		<a href="maintenance.html">Održavanje zrakoplova</a>
+		<a href="gallery.html">Galerija</a>
+		<a href="contact.html">Kontakt</a>
 	</div>
 	<!-- Header -->
 	<div class="container">
-		<header>
+		<div class="header">
 			<a class="logo" href="index.html"><img src="assets/img/logo.png"></a>
 			<a class="menu-toggle" href="#"><span></span></a>
-			<nav class="primary-nav">
-			<ul>
-			  	<li><a href="index.html">O nama</a></li>
-			  	<li><a href="#">Pilotska škola</a>
-			    	<ul>
-				      	<li><a href="school-planes.html">Flota</a></li>
-				      	<li><a href="school.html">Instruktori</a></li>  
-				    </ul>
-				</li>
-				<li><a href="maintenance.html">Održavanje zrakoplova</a></li>
-				<li><a class="active" href="gallery.html">Galerija</a></li>
-				<li><a href="contact.html">Kontakt</a></li>
-			</nav>
-		</header>
+			<div class="primary-nav">
+				<ul>
+				  	<li><a href="index.html">O nama</a></li>
+				  	<li><a href="#">Pilotska škola</a>
+				    	<ul>
+					      	<li><a href="school-planes.html">Flota</a></li>
+					      	<li><a href="school.html">Instruktori</a></li>  
+					    </ul>
+					</li>
+					<li><a href="maintenance.html">Održavanje zrakoplova</a></li>
+					<li><a class="active" href="gallery.html">Galerija</a></li>
+					<li><a href="contact.html">Kontakt</a></li>
+				</ul>
+			</div>
+		</div>
 		<div class="content">
 			<div class="gallery">
 				<h3>Galerija</h3>
-<ul>
+				<ul>
 					<li><a href="assets/img/lg/image-01.jpg" title="9A-DDK"><img src="assets/img/tn/image-01.png"></a></li>
 					<li><a href="assets/img/lg/image-02.jpg" title="9A-DDK"><img src="assets/img/tn/image-02.png"></a></li>
 					<li><a href="assets/img/lg/image-03.jpg" title="9A-DML"><img src="assets/img/tn/image-03.png"></a></li>
@@ -71,13 +71,13 @@
 				</ul>
 			</div>
 		<!-- Footer -->
-		<footer>
+		<div class="footer">
 			<small>Copyright © Air Pannonia 2015</small>
-		</footer>
+		</div>
 		</div>
 	</div>
 	
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script type="text/javascript" src="dist/simple-lightbox.min.js"></script>
 <script>
 	$(function(){
@@ -85,7 +85,7 @@
 	});
 </script>
 
-<script src="main.js"></script>
+<script src="js/main.js"></script>
 
 </body>
 </html>
