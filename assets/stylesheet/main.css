@@ -126,13 +126,13 @@ header {
   margin-top: 27px;
 }
 .primary-nav ul {
-  list-style:none;
-  float:left;
+  list-style: none;
+  float: left;
   display: inline-block;
 }
 .primary-nav ul a {
-  display:block;
-  color:#fff;
+  display: block;
+  color: #fff;
   background: #395870;
   background: linear-gradient(#2f65ec, #3b87d5);
   border-right: 1px solid rgba(0, 0, 0, .3);
@@ -380,7 +380,11 @@ a {
 .col-1-3 {
   text-align: left;
 }
-
+.map {
+  width: 600px;
+  height: 350px;
+  border: 0;
+}
 /*
   ========================================
   School Page
@@ -606,7 +610,7 @@ footer small {
   .map {
     display: block;
     width: 100%;
-    pointer-events:none;
+    pointer-events: none;
   }
   .col-1-3 {
     text-align: left;
